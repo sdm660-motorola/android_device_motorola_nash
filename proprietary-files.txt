@@ -34,7 +34,7 @@ etc/zaf/zaf_mot_s5k2l7sa.json:vendor/etc/zaf/zaf_mot_s5k2l7sa.json
 framework/com.motorola.motosignature.jar
 lib/lib_mot_app6_metadata.so:vendor/lib/lib_mot_app6_metadata.so
 lib/libmot_lux_standardization.so:vendor/lib/libmot_lux_standardization.so
-priv-app/MotCamera2/MotCamera2.apk
+priv-app/MotCamera2/MotCamera2.apk;OVERRIDES=Aperture
 vendor/bin/vl53l1_daemon
 vendor/lib/hw/camera.msm8998.so|ad3df43cd644e97fb373ce27dd05d07544d7b6c4|af37a533ba1f4203b7e1b4db1ec9cc3ad47dea75
 vendor/lib/hw/libSonyDefocus.so
