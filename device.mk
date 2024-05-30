@@ -57,6 +57,9 @@ PRODUCT_PACKAGES += \
     bootctrl.qcom.recovery
 
 # Camera
+PRODUCT_PACKAGES += \
+    MotCamera2
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     $(LOCAL_PATH)/configs/camera/imx386_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx386_chromatix.xml \
