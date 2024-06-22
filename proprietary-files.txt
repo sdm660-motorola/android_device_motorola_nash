@@ -463,9 +463,9 @@ vendor/lib64/libssd.so
 vendor/lib/hw/gatekeeper.msm8998.so
 vendor/lib64/hw/gatekeeper.msm8998.so
 
-# Graphics
-vendor/lib/hw/vulkan.sdm660.so:vendor/lib/hw/vulkan.msm8998.so
-vendor/lib64/hw/vulkan.sdm660.so:vendor/lib64/hw/vulkan.msm8998.so
+# Graphics (Vulkan) - from taimen-user-11-RP1A.201005.004.A1-6934943-release-keys
+vendor/lib/hw/vulkan.sdm660.so:vendor/lib/hw/vulkan.msm8998.so|6df3aa5c6badc46bc7a0367b9a62b0ab5b406159
+vendor/lib64/hw/vulkan.sdm660.so:vendor/lib64/hw/vulkan.msm8998.so|f0cf8bccfcfd0473a2c0322b1274dc4d752f2abb
 
 # IMS
 -product/priv-app/ims/ims.apk|75854565f032706bd2c91bef682f1ab71a1db870
