@@ -26,4 +26,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
         PRODUCT_NAME=nash \
         PRIVATE_BUILD_DESC="nash-user 9 PPX29.159-24 e78f1 release-keys"
 
-BUILD_FINGERPRINT := motorola/nash_retail/nash:9/PPX29.159-24/e78f1:user/release-keys
+#BUILD_FINGERPRINT := motorola/nash_retail/nash:9/PPX29.159-24/e78f1:user/release-keys
