@@ -15,14 +15,14 @@ include device/motorola/msm8998-common/BoardConfigCommon.mk
 DEVICE_PATH := device/motorola/nash
 
 # Assertations
-TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
+TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/configs/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := nash
 
 # Display
 TARGET_SCREEN_DENSITY := 560
 
 # HIDL
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/nash_manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/nash_manifest.xml
 
 # Kernel
 BOARD_KERNEL_CMDLINE += androidboot.boot_devices=soc/1da4000.ufshc
@@ -35,7 +35,7 @@ BOARD_VENDORIMAGE_PARTITION_SIZE := 1409286144 # 1344 MB
 TARGET_USES_OEM_AS_VENDOR := true
 
 # Properties
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/props/vendor.prop
 
 # RIL
 ENABLE_VENDOR_RIL_SERVICE := true
@@ -43,5 +43,5 @@ ENABLE_VENDOR_RIL_SERVICE := true
 # SELinux
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
-# inherit from the proprietary version
+# Inherit from the proprietary version
 include vendor/motorola/nash/BoardConfigVendor.mk
